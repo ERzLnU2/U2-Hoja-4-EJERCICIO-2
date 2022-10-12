@@ -32,9 +32,8 @@ UN BUEN CHOCHO MORROCOTUDO
           Las letras que tiene la matricula del coche Coche [matricula=1234RET, velocidad=100] 
           son RET
     
-    ![1](https://user-images.githubusercontent.com/80227002/195220789-f1b945a2-b5f6-4ec5-a8b8-0c7f4ccb92ea.png)
 
-    ![2](https://user-images.githubusercontent.com/80227002/195220807-011b0ed9-5454-46ec-a9b3-9abb88d75ba4.png)
+![4](https://user-images.githubusercontent.com/80227002/195220964-830eecaa-353c-4bb1-aa02-8298f5c3cfe1.png)
 
 
 ```java
@@ -72,10 +71,27 @@ public class Ejercicio2 {
 }
 
 ```
+![1](https://user-images.githubusercontent.com/80227002/195220928-abe71126-d04d-49fd-8242-b5c0164af274.png)
+
+![2](https://user-images.githubusercontent.com/80227002/195220945-53ceb97e-59a7-4c6f-a336-20eef9bee177.png)
 
 ![3](https://user-images.githubusercontent.com/80227002/195220875-b7aa26f4-256f-4c34-8446-93ffb7d61dbd.png)
 
-
 ```java
-00
+public class Coche {
+    private String matricula;
+    private String velocidad;
+    private int velocidadCero;
+    public Coche(){}
+    public Coche(String matricula, String velocidad, int velocidadCero){
+       this.matricula=matricula;  
+       this.velocidad=velocidad;
+       this.velocidadCero=velocidadCero;} 
+   public String getMatricula(){ return matricula;}
+   public String getVelocidad(){ return velocidad;}
+   public int getVelocidadCero(){ return velocidadCero;}
+   public void setMatricula(String matric){this.matricula=matric;}
+   public void setVelocidad(String veloc) {this.velocidad=veloc;}
+   public void setVelocidadCero(int veloCero) {this.velocidadCero=veloCero;} 
+}
 ```
