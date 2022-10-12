@@ -28,7 +28,7 @@ UN BUEN CHOCHO MORROCOTUDO
           el coche 2 despues de frenar 10 es
           Coche [matricula=4567KKK, velocidad=0]
           el coche 1 despues de acelerar 80 es
-          Coche [matricula=1234RET, velocidad=100]
+          Coche [matricula=1234RET, velocidad=20]
           Las letras que tiene la matricula del coche Coche [matricula=1234RET, velocidad=100] 
           son RET
     
