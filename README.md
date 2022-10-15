@@ -1,5 +1,4 @@
 # U2-Hoja-4-EJERCICIO-2
-UN BUEN CHOCHO MORROCOTUDO
 
        2.- Diseñar una clase llamada ‘coche’ con los atributos privados: 
            matricula y velocidad y los métodos:
